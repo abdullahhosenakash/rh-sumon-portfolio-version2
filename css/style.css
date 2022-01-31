@@ -1,5 +1,5 @@
 /* custom fonts */
-@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Pacifico&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Pacifico&family=Poppins&family=Rock+Salt&display=swap');
 body{
     font-family: 'Poppins', sans-serif;
 }
@@ -30,4 +30,10 @@ body{
 }
 .custom-border-radius{
     border-radius: 30px;
+}
+.custom-position{
+    top: 10%;
+}
+.about-me-name{
+    font-family: 'Kaushan Script', cursive;
 }
