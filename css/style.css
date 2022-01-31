@@ -1,0 +1,17 @@
+/* custom fonts */
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Pacifico&family=Poppins&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.navbar-brand-name{
+    font-family: 'Pacifico', cursive;
+}
+.custom-bg-color{
+    background-color: #EEEFF1;
+}
+.slider-font{
+    font-family: 'Kaushan Script', cursive;
+}
+.slider-text{
+    top: 30%;
+}
