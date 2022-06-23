@@ -1,39 +1,67 @@
 /* custom fonts */
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Pacifico&family=Poppins&family=Rock+Salt&display=swap');
-body{
+
+body {
     font-family: 'Poppins', sans-serif;
 }
-.navbar-brand-name{
+
+/* custom media query */
+/* @media only screen and (max-width: 576px) {
+    .custom-small-font-size{
+        font-size: 30px;
+        margin: 5px;
+    }
+    .custom-intro-font-size{
+        font-size: 10px;
+    }
+} */
+.navbar-brand-name {
     font-family: 'Pacifico', cursive;
 }
-.custom-bg-color{
+
+.custom-bg-color {
     background-color: #EEEFF1;
 }
-.slider-font{
+
+.slider-font {
     font-family: 'Kaushan Script', cursive;
 }
-.slider-text{
+
+.slider-text {
     top: 30%;
 }
-.learn-more-button{
+
+.learn-more-button {
     border: 1px solid;
     padding: 10px 25px;
     border-radius: 25px;
     background-color: white;
 }
-.learn-more-button:hover{
+
+.learn-more-button:hover {
     background-color: #404040;
     color: white;
     border: 1px solid #404040;
     transition: 0.2s;
 
 }
-.custom-border-radius{
+
+.custom-border-radius {
     border-radius: 30px;
 }
-.custom-position{
+
+.custom-position {
     top: 10%;
 }
-.about-me-name{
+
+.about-me-name {
     font-family: 'Kaushan Script', cursive;
+}
+
+.text-responsive {
+    font-size: calc(100% + 1vw + 1vh);
+}
+
+.rh-image:hover {
+    opacity: 0.8;
 }
